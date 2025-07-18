@@ -15,7 +15,7 @@ A wholesome, cozy landing page designed for a pet/lifestyle brand — filled wit
 
 ## 🔗 Live Preview
 
-- [View Website](https://milanxcode.github.io/Pawberry-Co/)  
+- [View Website](https://milanxcode.github.io/Pawberry-Co./)  
 
 ---
 
