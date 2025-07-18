@@ -1,0 +1,341 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Coda", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+/* --- Wrapper --- */
+
+#main {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* --- Top Section --- */
+
+#top-section {
+
+    width: 100%;
+    height: 60%;
+    background-image: url(./img/dog02.webp);
+    background-size: cover;
+    /* background-position: top 50%  right 0%; */
+    background-position: 50% 47%;
+
+}
+
+#overlay {
+
+    color: white;
+
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.507);
+
+}
+
+#text {
+
+    width: 100%;
+    padding: 0 5vw;
+
+    position: absolute;
+    bottom: 20%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#text h1 {
+
+    font-size: 4.5vw;
+
+}
+
+#text-right {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 45%;
+
+}
+
+#text-right p {
+
+    width: 30%;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#icons {
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 24px;
+    width: 100px;
+
+}
+
+#button {
+
+    display: flex;
+    justify-content: left;
+
+    width: 100%;
+    font-size: 44px;
+    color: black;
+
+    margin-top: 50px;
+
+}
+
+
+/* --- Navigation bar --- */
+
+video {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#navbar {
+
+    color: white;
+    padding-right: 5%;
+
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100px;
+
+}
+
+#navbar > p{
+
+    font-size: 12px;
+    letter-spacing: 6px;
+    opacity: 0.4;
+}
+
+#navbar > h2{
+
+    font-size: 40px;
+
+}
+
+#pawberry-animation{
+
+    width: 250px; 
+    height: 250px;
+}
+
+/* --- Bottom section --- */
+
+#bottom-section {
+
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+
+}
+
+#bottom-box-1 {
+
+    height: 100%;
+    width: 20%;
+    padding: 30px;    
+
+}
+
+#bottom-box-1 h2 {
+
+    color: black;
+    font-size: 2vw;
+
+}
+
+#bottom-box-1 p{
+
+    color: black;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
+#bottom-box-2 {
+
+    height: 100%;
+    width: 30%;
+
+    background-image: url(./img/dog01.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-box-3 {
+
+    color: white;
+
+    height: 100%;
+    width: 20%;
+
+}
+
+#bottom-box-3-top {
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #754c2f;
+
+}
+
+#bottom-box-3-top h3 {
+
+    padding: 30px;
+    letter-spacing: 1px;
+
+}
+
+#bottom-box-3-top > h3 > span {
+
+
+    font-size: 44px;
+    font-weight: 800;
+
+} 
+
+#bottom-box-3-bottom {
+
+    height: 50%;
+    width: 100%;
+
+    background-image: url(./img/dog03.webp);
+    background-size: cover;
+    background-position: 50% 55%;
+
+}
+
+#bottom-box-4 {
+
+    height: 100%;
+    width: 30%;
+
+    color: #fff;
+    padding: 30Px;
+
+    background-color: #222;
+    background-size: cover;
+    background-position: 50% 80%;
+    
+}
+
+#bottom-box-4 h3{
+
+    font-size: 2vw;
+
+}
+
+
+#profile {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+
+}
+
+#profile #photo {
+
+    height: 60px;
+    width: 60px; 
+    border-radius: 50%;
+    border: solid 2px white;
+
+}
+
+#profile p {
+ 
+    font-size: 14px;
+    width: 80%;
+
+}
+
+.user-1 {
+    background-image: url(./img/user01.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.user-2 {
+    background-image: url(./img/user02.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.user-3 {
+    background-image: url(./img/user03.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.coda-regular {
+    font-family: "Coda", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.coda-extrabold {
+    font-family: "Coda", system-ui;
+    font-weight: 800;
+    font-style: normal;
+}
+
